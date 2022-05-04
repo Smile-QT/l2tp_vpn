@@ -10,22 +10,22 @@ sudo yum install wget -y
 2. 下载脚本文件
 
 ```shell   
-wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/init_centos7.sh
+sudo wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/init_centos7.sh
 ```
 安装 Docker，输入 0，执行全部操作
 ```shell      
-bash init_centos7.sh
+sudo bash init_centos7.sh
 ```
 3. 下载 Docker-compose 文件
 
 ```sh
-wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/docker-compose.yml
+sudo wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/docker-compose.yml
 ```
 
 4. 配置 vpn.env 文件
 
 ```sh
-wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/vpn.env
+sudo wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/vpn.env
 ```
 修改 VPN 配置文件
 ```
@@ -45,23 +45,23 @@ VPN_DNS_SRV2=8.8.8.8
 5. 启动 VPN 服务器
 
 ```sh
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 6. 查看 VPN Server 运行状态
 
 ```sh
-docker logs ipsec-vpn-server 
+sudo docker logs ipsec-vpn-server 
 ```
 
 6. 停止 VPN Server
 
 ```sh
-docker-compose down
+sudo docker-compose down
 ```
 
 ## 下一步，使用 VPN
-[Windows 10 使用 VPN](https://github.com/choushunn/common_tools/blob/main/vpn/Windows%2010%20%E4%BD%BF%E7%94%A8%20VPN.md)
+[Windows 10 使用 VPN](https://github.com/choushunn/l2tp_vpn/main/Windows%2010%20%E4%BD%BF%E7%94%A8%20VPN.md)
 
 
 ## 特别感谢

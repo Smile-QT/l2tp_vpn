@@ -1,4 +1,4 @@
-## Docker 搭建 VPN 服务器
+## Docker 搭建 L2TP 服务器
 
 1. 准备一台 CentOS 7 系统或虚拟机
 

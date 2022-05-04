@@ -61,7 +61,7 @@ sudo docker-compose down
 ```
 
 ## 下一步，使用 VPN
-[Windows 10 使用 VPN](https://github.com/choushunn/l2tp_vpn/main/Windows%2010%20%E4%BD%BF%E7%94%A8%20VPN.md)
+[Windows 10 使用 VPN](https://github.com/choushunn/l2tp_vpn/blob/main/Windows%2010%20%E4%BD%BF%E7%94%A8%20VPN.md)
 
 
 ## 特别感谢

@@ -10,7 +10,7 @@ sudo yum install wget -y
 2. 下载脚本文件
 
 ```shell   
-wget https://raw.githubusercontent.com/choushunn/common_tools/main/shell_script/init_centos7.sh
+wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/init_centos7.sh
 ```
 安装 Docker，输入 0，执行全部操作
 ```shell      
@@ -19,13 +19,13 @@ bash init_centos7.sh
 3. 下载 Docker-compose 文件
 
 ```sh
-wget https://raw.githubusercontent.com/choushunn/common_tools/main/vpn/docker-compose.yml
+wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/docker-compose.yml
 ```
 
 4. 配置 vpn.env 文件
 
 ```sh
-wget https://raw.githubusercontent.com/choushunn/common_tools/main/vpn/vpn.env
+wget https://raw.githubusercontent.com/choushunn/l2tp_vpn/main/vpn.env
 ```
 修改 VPN 配置文件
 ```
